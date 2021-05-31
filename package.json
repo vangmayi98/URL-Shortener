@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener Micro-service project (MERN STACK)",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vangmayi98/URL-Shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vangmayi98/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/vangmayi98/URL-Shortener#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
